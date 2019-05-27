@@ -4,9 +4,9 @@ El presente trabajo tiene por objetivo identificar algunos de los aspectos a ten
 
 
 
-## INTRODUCCIÓN
+## 1 - INTRODUCCIÓN
 
-Debido a que la cantidad de dispositivos conectados a Internet crece exponencialmente, el volumen de los datos generado por las aplicaciones de usuario en esos dispositivos aumenta cada día. En definitiva se tienen cada vez mas dispositivos conectados a Internet, tales como ordenandores, teléfonos móviles, sensores, cámaras de vigilancia, GPS, consolas de videojuegos; cada uno de ellos corriendo aplicaciones tales como redes sociales, georeferenciación, sistemas transaccionales, alertas, etc. y cada una de ellas generando datos en una amplia gama de formatos (texto, gráficos, imágenes, videos, sonidos, etc).
+Debido a que la cantidad de dispositivos conectados a Internet crece exponencialmente, el volumen de los datos generado por las aplicaciones de usuario en esos dispositivos aumenta cada día. En definitiva se tienen cada vez mas dispositivos conectados a Internet, tales como ordenadores, teléfonos móviles, sensores, cámaras de vigilancia, GPS, consolas de videojuegos; cada uno de ellos corriendo aplicaciones tales como redes sociales, georeferenciación, sistemas transaccionales, alertas, etc. y cada una de ellas generando datos en una amplia gama de formatos (texto, gráficos, imágenes, videos, sonidos, etc).
 
 El primer inconveniente que se presenta en estos contextos es el almacenamiento LOCAL de los datos, además de la capacidad de procesamiento y memoria, junto con las restricciones de consumo de energía.
 
@@ -14,7 +14,7 @@ Esta problemática plantea la necesidad de la integración del Iot y el Cloud 
 
 
 
-## CONCEPTOS 
+## 2 - CONCEPTOS 
 
 Los avances en computación móvil, redes inalámbricas, dispositivos móviles y sistemas embebidos han dado lugar al paradigma de IoT el cual consiste en una infraestructura de red global y dinámica de nodos (things) interconectados, inteligentes y auto configurables. IoT permite no solo que las personas se interconecten y se comuniquen, sino que ahora también lo hacen los procesos, los datos y los objetos, convirtiéndose en sus cuatro pilares. 
 
@@ -22,15 +22,19 @@ La interacción entre los pilares de IoT establece tres tipos de conexiones:
 	- personas que se comunican con personas (P2P)
 	- máquinas que se comunican con personas (M2P)
 	- máquinas que se comunican con máquinas (M2M). 
-Sin importar cual de estos tipos de conexiones se usan, en todos los casos se trata de una convergencia de múltiples tecnologías para permitir intercambiar datos entre dispositivo conectado. Todo esto se realiza con base en tecnologías de sensores, RFID (Radio Frequency Identification), NFC (Near Field Communications) y sistemas de geolocalización, que permitirán que los objetos cotidianos se conecten y se vuelvan inteligentes, cambiando radicalmente la forma realizan las tareas cotidianas.
+
+Sin importar cual de estos tipos de conexiones se usan, en todos los casos se trata de una unión de múltiples tecnologías para permitir intercambiar datos entre dispositivo conectado. Todo esto se realiza con base en tecnologías de sensores, RFID (Radio Frequency Identification), NFC (Near Field Communications) y sistemas de geolocalización, que permitirán que los objetos cotidianos se conecten y se vuelvan inteligentes, cambiando radicalmente la forma realizan las tareas cotidianas.
+
 
 Actualmente, el 99% de los objetos que se encuentran en el mundo físico no están conectados aún a Internet sin embargo se estima que para el año 2020 habrá 50 millones de objetos inteligentes conectados a Internet, los cuales proporcionarán billones de gigabytes de datos que deben ser almacenados, procesados y presentados en forma eficiente y fácilmente interpretables. Se considera que el 90% de los datos existentes se han generado en los últimos dos años, esto está dando lugar a la Era del Exa y Zetta Byte [2]. Este aumento en la cantidad de datos demanda nuevas estrategias que permitan su almacenamiento, procesamiento y análisis de manera eficiente; esto conlleva un cambio de paradigma en las arquitecturas de cómputo, los algoritmos y los mecanismos de procesamiento.
 
 Es aquí donde la integración de la IoT con Cloud Computing permite que esta gran cantidad de datos puedan ser alojados en internet, favoreciendo que recursos, servicios y datos estén disponibles para su uso y para la prestación de servicios end-to-end para empresas y usuarios que accedan desde cualquier lugar, proporcionando la infraestructura virtual de integración para dispositivos de almacenamiento, herramientas de análisis, visualización y plataforma.
 
+Cloud Computing, es un modelo para permitir el acceso en red omnipresente, conveniente y bajo demanda a un conjunto compartido de recursos informáticos configurables tales como, redes, servidores, almacenamiento, aplicaciones y servicios que pueden ser rápidamente aprovisionados y liberados con un mínimo de gestión esfuerzo e interacción con el proveedor o administrador de servicio.
 
 
-## CARACTERÍSTICAS
+
+## 3 - CARACTERÍSTICAS
 
 IoT promete un mundo donde todo este conectado, para lograr esto es necesario: accesibilidad y conectividad ubicua, orquestación dinámica de dispositivos, óptima utilización de recursos y personalización de servicios. Para lograr que estos servicios sean prestados de manera eficiente y efectiva es necesario asegurar altos niveles de disponibilidad y escalabilidad.
 
@@ -44,7 +48,7 @@ Una infraestructura que integre cloud e IoT permitira:
 
 
 
-## HERRAMIENTAS
+## 4 - HERRAMIENTAS
 
 En aras de validar las características antes mencionadas, se presenta ahora una serie de herramientas con las que desarrollar aplicaciones de excelentes resultados. A partir de las cuales es posible desarrollar futuras aplicaciones de enfoque específico a distintos campos de la ciencia como la Agricultura de Precisión, Ciudades Inteligentes, Domótica, etc. 
 
@@ -117,7 +121,7 @@ De las distintas bases de datos analizadas, CouchDB presentó inconvenientes de
 
 
 
-## Fog Computing
+## 5 - FOG COMPUTING
 
 Fog computing se considera como una extensión del paradigma de computación en nube desde el núcleo de la red hasta el borde de la red. Esta plataforma proporciona servicios de computación, almacenamiento y trabajo en red entre dispositivos finales y servidores en la nube tradicionales. Por lo general tiene tareas que pueden ser para admitir funciones de red básicas o nuevos servicios y aplicaciones que se ejecutan en un entorno de espacio aislado.
 
@@ -143,7 +147,7 @@ En Fog computing, el procesamiento tiene lugar en un centro de datos en un dispo
 
 6) Seguridad y privacidad: Se caracteriza por usar diferentes métodos para garantizar la seguridad de sus usuarios, tales como seguridad biométrica, uso de codigos adicionales, entre otros. Todo esto con el fin de proteger todos los datos que cada día se suben a la nube, y garantizar la seguridad para sus usuarios.
 
-## Edge Computing
+## 6 - EDGE COMPUTING
 
 Con los inicios del concepto “La nube” en informática causó un gran avance, pues esto abrió la puerta a innumerables dispositivos que sin tener altas capacidades de computo podían trabajar con buen rendimiento permitiendo la conexión de las máquinas al internet el cual es cada vez es más amplio. Sin embargo, en muchos casos los tiempos de respuesta o la velocidad que requieren algunas operaciones es mayor que lo que la nube puede ofrecer. Los procesos más complejos y de gran tamaño necesitan un poder computacional cada vez más rápido y efectivo, sin poder esperar para conectarse a alguna redy teniendo esta situación es ahí donde tenemos a Edge Computing[10].
 
@@ -163,7 +167,7 @@ Edge Computing es una red de malla de micro centros de datos que procesa o almac
 3) Escalabilidad: Edge computing es fundamentalmente cómputo distribuido, lo que significa mejorar la resiliencia, reducir las cargas de red y que es más fácil de escalar.
 4) Costos bajos: Los costos de transmisión de datos son mejores porque es reducida la cantidad de datos transferidos hacia una ubicación central para almacenarlos.
 
-## CONCLUSIÓN
+## 7 - CONCLUSIÓN
 
 La Edge Computing se refiere de forma específica a cómo los procesos computacionales se realizan en los los dispositivos IoT con capacidad de análisis y procesos como routers o gateways de red mientras que Fog Computing se refiere a las conexiones de red entre los dispositivos edge y la nube. Hace tiempo que el OpenFog Consortium formado por Cisco, Intel, Microsoft, Dell EMD y algunas instituciones académicas trabaja en especificaciones para ese tipo de implantaciones en las que los sistemas Edge Computing, los Fog Computing y los Cloud Computing interactúan para tener un sistema aún más óptimo en cuanto a la problemática planteada[9].
 
