@@ -43,7 +43,7 @@ Cloud Computing, es un modelo para permitir el acceso en red omnipresente y bajo
 
 IoT promete un mundo donde todo este conectado, para lograr esto es necesario: accesibilidad y conectividad ubicua, orquestación dinámica de dispositivos, óptima utilización de recursos y personalización de servicios. Pero para esto necesitamos asegurar altos niveles de disponibilidad y escalabilidad.
 
-Pero debido a las limitaciones de los dispositivos de IoT, aspectos tales como seguridad, confiabilidad e integridad NO se pueden asegurar pues no existen recursos necesarios. Por tanto, una infraestructura que integre cloud e IoT permitira: 
+Pero debido a las limitaciones de los dispositivos de IoT, aspectos tales como seguridad, confiabilidad e integridad no se pueden asegurar pues no existen recursos necesarios. Por tanto, una infraestructura que integre cloud e IoT permitira: 
 
 - Almacenamiento: Es posible alojar datos estructurados y no estructurados en múltiples formatos.
 - Cómputo: Uno de los retos en ambientes IoT es la escalabilidad y el cloud lo puede proveer mediante el uso de infraestructura de altas prestaciones capaces de realizar cómputo intensivo. Aquí es donde entraría en funcionamiento el Big Data.
